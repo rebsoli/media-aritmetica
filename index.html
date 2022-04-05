@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de média inserindo os valores</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+    <h1>Calculadora de média</h1>
+
+    <em>Insira as notas dos quatro bimestres aqui:</em>
+</header>
+<input id="media" placeholder="Média" type="text">
+<div class="notas">
+    <input id="1bimestre" type="text" placeholder="1º Bimestre">
+    <input id="2bimestre" type="text" placeholder="2º Bimestre">
+    <input id="3bimestre" type="text" placeholder="3º Bimestre">
+    <input id="4bimestre" type="text" placeholder="4º Bimestre">
+</div>
+
+<button onclick="calcular()" type="submit">Calcular</button>
+<br>
+<h3 id="resultado"></h3>
+<h3 id="status"></h3>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
